@@ -1,8 +1,13 @@
 aid: phia
 name: Phia
-description: 'Phia is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Phia is a personal shopping assistant that helps consumers build their
+  closet and find the best prices instantly across the web. Co-founded by Phoebe Gates
+  and Sophia Kianni, the product spans a mobile app and a browser extension that compares
+  prices for a given item across new and resale marketplaces, tracking more than 700
+  fashion, beauty, and lifestyle brands. The public phia.com site is a consumer storefront
+  (a brand directory plus editorial style edits) and exposes no developer API, documentation,
+  or programmatic surface. This profile was surfaced as a portfolio company of GGV
+  Capital and enriched from live probes of the public site.'
 url: https://raw.githubusercontent.com/api-evangelist/phia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://phia.com/metadata.png
 tags:
 - Company
 - Ecommerce
+- Shopping
+- Fashion
+- Retail
+- Price Comparison
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://phia.com/
+- type: X
+  url: https://x.com/PhiaCo_
+- type: Instagram
+  url: https://www.instagram.com/phiaco/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/phia-co
+- type: DomainSecurity
+  url: security/phia-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
